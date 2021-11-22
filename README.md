@@ -16,4 +16,4 @@ Load up the project using your favorite IDE.
 Version 0.1.0, Implemented the 2 required functions
 
 Pull Requests
-[Pull Request]()
+[Pull Request](https://github.com/Tareq-Zeyad/web-scraper/pull/1)
