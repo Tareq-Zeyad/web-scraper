@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-germany_wiki_url = "https://en.wikipedia.org/wiki/Germany"
+mexico_wiki_url = "https://en.wikipedia.org/wiki/History_of_Mexico"
 
 
 def get_citations_needed_count(url: str):
@@ -42,4 +42,5 @@ def get_citations_needed_report(url: str):
 
 
 if __name__ == '__main__':
-    print(get_citations_needed_report(germany_wiki_url))
+    print(get_citations_needed_report(mexico_wiki_url))
+    print(get_citations_needed_count(mexico_wiki_url))
